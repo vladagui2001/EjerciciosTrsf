@@ -1,9 +1,14 @@
-﻿Student student = new Student();
-Teacher teacher = new Teacher();
+﻿using Ejercicio4;
 
-class Person {
-    public void SetAge(int n){
-        Console.WriteLine("Dame tu edad");
-        student.ShowAge = double.Parse(Console.ReadLine());
-    }
-}
+Student student = new Student();
+student.SetAge(24);
+student.SetName("Pedro");
+student.SayHello();
+student.GoToClasses();
+student.ShowAge();
+
+Teacher teacher = new Teacher();
+teacher.SetAge(30);
+teacher.SetName("Jose Eduardo");
+teacher.SayHello();
+teacher.Explain();

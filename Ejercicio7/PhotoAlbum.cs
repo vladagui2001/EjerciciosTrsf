@@ -1,7 +1,7 @@
 public class PhotoAlbum
 {
     private int numberOfPages;
-
+ 
     public PhotoAlbum()
     {
         numberOfPages = 16;

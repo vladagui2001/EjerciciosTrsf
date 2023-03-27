@@ -2,7 +2,6 @@
 {
     static void Main(string[] args)
     {
-        // Example usage:
         Console.Write("Ingresa un texto con espacios: ");
         string input = Console.ReadLine();
         int ContEsp = EspCont(input);

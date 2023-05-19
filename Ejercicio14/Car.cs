@@ -50,7 +50,7 @@ public static class CarDataMocker
         Console.WriteLine($"Kilometers: {car.Kilometers}");
         Console.WriteLine();
     }
-        // Add more mock cars as needed
+        // Add more mock cars as needed 
 
         return cars;
     }
